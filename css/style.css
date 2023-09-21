@@ -418,8 +418,15 @@ html {
   align-items: center;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+/* Extra small devices (phones, 667px and down) */
+@media only screen and (max-height: 375px) {
+  
+  .section-staff {
+    background-size:300dvh;
+    background-attachment:unset;
+  }
+
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
@@ -512,7 +519,7 @@ html {
 }
 
 .envejecer .container-fluid {
-  background-size: 150dvh;
+  background-size: cover;
   background-attachment: unset;
 
 }
@@ -533,9 +540,8 @@ html {
   
   background-size:150dvh;
   background-attachment:unset;
-
-
 }
+
 .seccion-funciones-cuidadores .container .row{
   display: block;
 }
@@ -556,4 +562,36 @@ html {
     align-items: center;
     justify-content: center;
   }
+}
+
+@media screen and (max-width: 375px) {
+ 
+  .section-banner {
+    height: 100vh;
+}
+  .envejecer {
+    height:130dvh;
+  }
+
+  .conection{
+    height: 200dvh;
+  }
+ 
+  .agradecer{
+    height: 120dvh;
+  }
+  .section-staff .recuadro-staff{
+    display: none;
+  }
+  .section-staff{
+    height: 100dvh;
+    background-attachment:unset;
+  }
+
+  .elFooter .container-fluid .row {
+
+    height: 18dvh;
+   
+  }
+  
 }
