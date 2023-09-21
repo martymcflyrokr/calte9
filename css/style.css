@@ -591,5 +591,26 @@ html {
   .elFooter .container-fluid .row {
     height: 18dvh;
   }
+
+  .navbar .container .row .fila-iconos .navbar-brand img {
+    width:10dvh;
+    display:block;
+
+  }
+
+  .row{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .navbar .container .row .fila-iconos .navbar-brand {
+    display: grid;
+    justify-content:end;
+ 
+    align-content: end;
+    justify-items: end;
+}
   
 }
