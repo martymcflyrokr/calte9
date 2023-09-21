@@ -513,14 +513,13 @@ html {
 
 .envejecer .container-fluid {
   background-size: 150dvh;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  object-fit: cover;
+  background-attachment: unset;
+
 }
 
 .agradecer .container-fluid {
   background-size: 150dvh;
-  background-attachment: fixed;
+  background-attachment: unset;
   background-repeat: no-repeat;
   object-fit: cover;
 }
@@ -533,6 +532,8 @@ html {
 .section-staff {
   
   background-size:150dvh;
+  background-attachment:unset;
+
 
 }
 .seccion-funciones-cuidadores .container .row{
