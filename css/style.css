@@ -564,7 +564,7 @@ html {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
  
   .section-banner {
     height: 100vh;
@@ -589,9 +589,7 @@ html {
   }
 
   .elFooter .container-fluid .row {
-
     height: 18dvh;
-   
   }
   
 }
